@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cahaya Interior</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+
+    <div class="cursor-outline"></div>
+    <!-- =========================================
+     LOADING SCREEN
+========================================= -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <img src="assets/images/logo.jpeg" alt="Logo">
+
+        <h2>
+
+            <span>Cahaya</span>
+            Interior
+
+        </h2>
+
+        <p>Crafting Premium Interiors</p>
+
+        <div class="loader-dots">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<header class="navbar" id="navbar">
+
+    <div class="container nav-wrapper">
+
+        <a href="#" class="logo">
+
+            <img src="assets/images/logo.jpeg" alt="Logo">
+
+            <div class="logo-text">
+
+                <span>Cahaya</span>
+
+                <p>Interior</p>
+
+            </div>
+
+        </a>
+
+        <nav class="nav-menu" id="navMenu">
+
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+        <div class="menu-toggle" id="menuToggle">
+
+            ☰
+
+        </div>
+
+        <a href="#" class="btn-primary magnetic">
+
+            Konsultasi Gratis
+
+        </a>
+
+    </div>
+
+</header>
+
+<main>
+<section class="hero" id="home">
+
+    <div class="container hero-wrapper">
+
+        <!-- KIRI -->
+        <div class="hero-left">
+
+            <p class="hero-subtitle">
+                CUSTOM INTERIOR SOLUTIONS
+            </p>
+
+            <h1 class="hero-title">
+                Wujudkan Interior
+                <span>Impian Anda</span>
+            </h1>
+
+            <p class="hero-description">
+                Cahaya Interior menghadirkan solusi interior modern dengan desain elegan,
+                material berkualitas, serta pengerjaan profesional untuk rumah,
+                kantor, dan ruang komersial.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#portfolio" class="btn-primary cursor-hover magnetic">
+                    Lihat Portfolio
+                </a>
+
+                <a href="#" class="btn-outline cursor-hover magnetic">
+                    Hubungi Kami
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- KANAN -->
+        <div class="hero-right">
+
+            <img src="assets/images/hero.jpg" alt="Hero">
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================
+     STATISTICS
+========================== -->
+
+<section class="stats reveal">
+
+    <div class="container">
+
+        <div class="stats-grid">
+
+            <div class="stat-card cursor-hover">
+
+                <div class="stat-number">
+
+                    <h2 class="counter" data-target="200">0</h2>
+
+                    <span>+</span>
+
+                </div>
+
+                <p>Project Selesai</p>
+
+            </div>
+
+            <div class="stat-card cursor-hover">
+
+                <div class="stat-number">
+
+                    <h2 class="counter" data-target="120">0</h2>
+
+                    <span>+</span>
+
+                </div>
+
+                <p>Klien Puas</p>
+
+            </div>
+
+            <div class="stat-card cursor-hover">
+
+                <div class="stat-number">
+
+                    <h2 class="counter" data-target="10">0</h2>
+
+                    <span>+</span>
+
+                </div>
+
+                <p>Tahun Pengalaman</p>
+
+            </div>
+
+            <div class="stat-card cursor-hover">
+
+                <div class="stat-number">
+
+                    <h2 class="counter" data-target="5">0</h2>
+
+                    <span>+</span>
+
+                </div>
+
+                <p>Kota Terlayani</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+     SERVICES
+========================================== -->
+
+<section class="services reveal" id="services">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <p class="section-subtitle">
+                LAYANAN KAMI
+            </p>
+
+            <h2 class="section-title">
+                Interior Berkualitas
+                <span>untuk Setiap Ruangan</span>
+            </h2>
+
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card cursor-hover">
+                <div class="service-icon">🏡</div>
+                <h3>Kitchen Set</h3>
+                <p>Desain kitchen set modern yang elegan dan fungsional sesuai kebutuhan Anda.</p>
+                <hr>
+
+                <a href="#" class="service-link">
+                    Pelajari Lebih
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="service-card cursor-hover">
+                <div class="service-icon">🪵</div>
+                <h3>Wall Panel</h3>
+                <p>Wall panel premium untuk menciptakan suasana ruangan yang lebih mewah.</p>
+                <hr>
+
+                <a href="#" class="service-link">
+                    Pelajari Lebih
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="service-card cursor-hover">
+                <div class="service-icon">📺</div>
+                <h3>TV Background</h3>
+                <p>Backdrop TV minimalis dengan sentuhan modern dan material berkualitas.</p>
+                <hr>
+
+                <a href="#" class="service-link">
+                    Pelajari Lebih
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="service-card cursor-hover">
+                <div class="service-icon">🍷</div>
+                <h3>Minibar</h3>
+                <p>Minibar custom yang menyatu dengan desain interior rumah Anda.</p>
+                <hr>
+
+                <a href="#" class="service-link">
+                    Pelajari Lebih
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="service-card cursor-hover">
+                <div class="service-icon">🏢</div>
+                <h3>Reception Desk</h3>
+                <p>Reception desk profesional untuk kantor, sekolah, maupun ruang komersial.</p>
+                <hr>
+
+                <a href="#" class="service-link">
+                    Pelajari Lebih
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="service-card cursor-hover">
+                <div class="service-icon">🪑</div>
+                <h3>Custom Furniture</h3>
+                <p>Furniture custom dengan desain eksklusif yang menyesuaikan karakter ruangan.</p>
+                <hr>
+
+                <a href="#" class="service-link">
+                    Pelajari Lebih
+                    <span>→</span>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+     PORTFOLIO
+========================================== -->
+<section class="portfolio reveal" id="portfolio">
+
+    <div class="container">
+
+        <div class="section-title portfolio-title">
+
+            <p>PORTFOLIO KAMI</p>
+
+            <h2>
+                Hasil Karya <br>
+                <span>Terbaik Kami</span>
+            </h2>
+
+        </div>
+
+        <div class="portfolio-grid">
+
+            <!-- CARD 1 -->
+            <div class="portfolio-card cursor-hover">
+
+                <img src="assets/images/portfolio1.jpeg" alt="Kitchen Set">
+
+                <div class="portfolio-overlay">
+
+                    <div class="portfolio-content">
+
+                        <span class="portfolio-category">
+                            Residential
+                        </span>
+
+                        <h3>Kitchen Set Modern</h3>
+
+                        <p>Minimalis • Elegan</p>
+
+                        <a href="#" class="portfolio-link">
+                            Lihat Project →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="portfolio-card cursor-hover">
+
+                <img src="assets/images/portfolio2.jpeg" alt="Minibar">
+
+                <div class="portfolio-overlay">
+
+                    <div class="portfolio-content">
+
+                        <span class="portfolio-category">
+                            Commercial
+                        </span>
+
+                        <h3>Minibar Modern</h3>
+
+                        <p>Luxury Interior</p>
+
+                        <a href="#" class="portfolio-link">
+                            Lihat Project →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="portfolio-card cursor-hover">
+
+                <img src="assets/images/portfolio3.jpeg" alt="Reception Desk">
+
+                <div class="portfolio-overlay">
+
+                    <div class="portfolio-content">
+
+                        <span class="portfolio-category">
+                            Office
+                        </span>
+
+                        <h3>Reception Desk</h3>
+
+                        <p>Modern Office</p>
+
+                        <a href="#" class="portfolio-link">
+                            Lihat Project →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="why-us reveal" id="about">
+
+    <div class="container why-container">
+
+        <div class="why-image">
+            <img src="assets/images/portfolio1.jpeg" alt="Interior Premium">
+        </div>
+
+        <div class="why-content">
+
+            <p class="section-subtitle">
+                MENGAPA MEMILIH KAMI?
+            </p>
+
+            <h2 class="section-title">
+                Interior Berkualitas <br>
+                untuk Investasi Jangka Panjang
+            </h2>
+
+            <p class="section-description">
+                Kami percaya bahwa interior bukan hanya tentang estetika,
+                tetapi juga kenyamanan, fungsi, dan kualitas yang bertahan lama.
+            </p>
+
+            <div class="why-list">
+
+                <div class="why-item">
+                    <h4>Material Premium</h4>
+                    <p>Menggunakan material pilihan dengan kualitas terbaik.</p>
+                </div>
+
+                <div class="why-item">
+                    <h4>Desain Eksklusif</h4>
+                    <p>Setiap desain disesuaikan dengan karakter dan kebutuhan klien.</p>
+                </div>
+
+                <div class="why-item">
+                    <h4>Tim Profesional</h4>
+                    <p>Dikerjakan oleh tenaga ahli berpengalaman.</p>
+                </div>
+
+                <div class="why-item">
+                    <h4>Garansi Pengerjaan</h4>
+                    <p>Kami memberikan garansi untuk hasil pekerjaan tertentu.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========================================== 
+ PROCESS 
+ ========================================== -->
+<section class="process reveal" id="process">
+
+    <div class="container">
+
+        <div class="section-title center">
+
+            <span>PROSES KERJA</span>
+
+            <h2>
+                Dari Ide Menjadi
+                <span>Interior Impian</span>
+            </h2>
+
+            <p>
+                Kami mendampingi setiap langkah, mulai dari konsultasi,
+                desain hingga pemasangan dengan hasil yang rapi,
+                profesional, dan sesuai harapan.
+            </p>
+
+        </div>
+
+        <div class="process-grid">
+
+            <!-- Card 1 -->
+            <div class="process-card cursor-hover">
+
+                <div class="process-number">01</div>
+
+                <h3>Konsultasi</h3>
+
+                <p>
+                    Diskusi kebutuhan, ukuran ruangan, konsep desain,
+                    serta estimasi anggaran.
+                </p>
+
+            </div>
+
+            <!-- Arrow -->
+            <div class="process-arrow">
+                →
+            </div>
+
+            <!-- Card 2 -->
+            <div class="process-card cursor-hover">
+
+                <div class="process-number">02</div>
+
+                <h3>Design 3D</h3>
+
+                <p>
+                    Visualisasi desain agar Anda dapat melihat hasil
+                    sebelum proses produksi dimulai.
+                </p>
+
+            </div>
+
+            <div class="process-arrow">
+                →
+            </div>
+
+            <!-- Card 3 -->
+            <div class="process-card cursor-hover">
+
+                <div class="process-number">03</div>
+
+                <h3>Produksi</h3>
+
+                <p>
+                    Dikerjakan oleh tenaga profesional menggunakan
+                    material premium dan proses yang presisi.
+                </p>
+
+            </div>
+
+            <div class="process-arrow">
+                →
+            </div>
+
+            <!-- Card 4 -->
+            <div class="process-card cursor-hover">
+
+                <div class="process-number">04</div>
+
+                <h3>Instalasi</h3>
+
+                <p>
+                    Tim kami melakukan pemasangan hingga selesai dengan
+                    hasil rapi dan siap digunakan.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="cta reveal">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+        <div class="section-line"></div>
+            <p>SIAP MEMULAI PROYEK ANDA?</p>
+
+            <h2>
+                Wujudkan Interior Impian
+                <span>Bersama Cahaya Interior</span>
+            </h2>
+
+            <p class="cta-description">
+                Konsultasikan kebutuhan interior Anda bersama tim kami.
+                Kami siap membantu mulai dari konsep desain hingga
+                proses instalasi dengan hasil terbaik.
+            </p>
+
+            <a href="#" class="btn-primary magnetic">
+                Konsultasi Gratis
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ==========================================
+     TESTIMONIAL
+=========================================== -->
+
+<section class="testimonial reveal" id="testimonial">
+
+    <div class="container">
+
+        <div class="section-title center">
+
+            <span>TESTIMONIAL</span>
+
+            <h2>
+                Apa Kata <br>
+                <span>Klien Kami</span>
+            </h2>
+
+            <p>
+                Kepuasan pelanggan adalah prioritas kami.
+                Berikut beberapa kesan dari klien yang telah
+                mempercayakan proyek interior kepada Cahaya Interior.
+            </p>
+
+        </div>
+
+        <div class="testimonial-grid">
+
+            <!-- Card 1 -->
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p class="testimonial-text">
+                    "Kitchen set yang kami pesan benar-benar sesuai
+                    ekspektasi. Finishing sangat rapi dan materialnya
+                    berkualitas."
+                </p>
+
+                <div class="testimonial-profile">
+
+                    <div class="profile-circle">
+                        AS
+                    </div>
+
+                    <div>
+
+                        <h4>Andi Saputra</h4>
+
+                        <span>Jakarta</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Card 2 -->
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p class="testimonial-text">
+                    "Kitchen set yang kami pesan benar-benar sesuai
+                    ekspektasi. Finishing sangat rapi dan materialnya
+                    berkualitas."
+                </p>
+
+                <div class="testimonial-profile">
+
+                    <div class="profile-circle">
+                        AS
+                    </div>
+
+                    <div>
+
+                        <h4>Dodi Mahendra</h4>
+
+                        <span>Bekasi</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p class="testimonial-text">
+                    "Kitchen set yang kami pesan benar-benar sesuai
+                    ekspektasi. Finishing sangat rapi dan materialnya
+                    berkualitas."
+                </p>
+
+                <div class="testimonial-profile">
+
+                    <div class="profile-circle">
+                        AS
+                    </div>
+
+                    <div>
+
+                        <h4>Reza Ayam</h4>
+
+                        <span>Wisma Asri</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+     CONTACT
+=========================================== -->
+
+<section class="contact reveal" id="contact">
+
+    <div class="container">
+
+        <!-- SECTION TITLE -->
+        <div class="section-title center">
+
+            <span>HUBUNGI KAMI</span>
+
+            <h3>
+                Mari Wujudkan Interior
+                <span>Impian Anda</span>
+            </h3>
+
+            <p>
+                Konsultasikan kebutuhan interior Anda bersama tim Cahaya Interior.
+                Kami siap membantu mulai dari desain hingga proses pengerjaan.
+            </p>
+
+        </div>
+
+        <!-- CONTACT WRAPPER -->
+        <div class="contact-wrapper">
+
+            <!-- FORM -->
+            <div class="contact-form">
+
+                <form>
+
+                    <div class="input-group">
+                        <input type="text" placeholder="Nama Lengkap" required>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="tel" placeholder="Nomor WhatsApp" required>
+                    </div>
+
+                    <div class="input-group">
+
+                        <select required>
+
+                            <option value="">Pilih Layanan</option>
+                            <option>Kitchen Set</option>
+                            <option>Minibar</option>
+                            <option>TV Background</option>
+                            <option>Wall Panel</option>
+                            <option>Reception Desk</option>
+                            <option>Custom Furniture</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <textarea
+                            rows="6"
+                            placeholder="Ceritakan kebutuhan interior Anda...">
+                        </textarea>
+
+                    </div>
+
+                    <button class="btn-primary">
+                        Kirim Konsultasi
+                    </button>
+
+                </form>
+
+            </div>
+
+            <!-- CONTACT INFO -->
+            <div class="contact-info">
+
+                <h3>Informasi Kontak</h3>
+
+                <p>
+                    Kami siap membantu Anda mulai dari konsultasi,
+                    survey lokasi, hingga proses pemasangan.
+                    Hubungi kami melalui informasi berikut.
+                </p>
+
+                <div class="info-item">
+
+                    <h4>📍 Alamat</h4>
+
+                    <p>
+                        Bekasi, Jawa Barat
+                    </p>
+
+                </div>
+
+                <div class="info-item">
+
+                    <h4>📱 WhatsApp</h4>
+
+                    <p>
+                        +62 xxx xxxx xxxx
+                    </p>
+
+                </div>
+
+                <div class="info-item">
+
+                    <h4>✉ Email</h4>
+
+                    <p>
+                        cahayainterior@gmail.com
+                    </p>
+
+                </div>
+
+                <div class="info-item">
+
+                    <h4>🕘 Jam Operasional</h4>
+
+                    <p>
+                        Senin - Sabtu <br>
+                        08.00 - 17.00 WIB
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- END CONTACT WRAPPER -->
+
+        <!-- LOCATION BAR -->
+
+<div class="location-bar">
+
+    <div class="location-item">
+
+        <span class="location-icon">📍</span>
+
+        <div>
+
+            <h4>Lokasi</h4>
+
+            <p>Bekasi, Jawa Barat</p>
+
+        </div>
+
+    </div>
+
+    <div class="location-item rating-card">
+
+    <div class="rating-stars">
+
+        ★★★★★
+
+    </div>
+
+    <div class="rating-info">
+
+        <h4>4.9 / 5.0</h4>
+
+        <p>Google Reviews</p>
+
+    </div>
+
+    </div>
+
+    <div class="location-item">
+
+        <span class="location-icon">🕘</span>
+
+        <div>
+
+            <h4>Jam Operasional</h4>
+
+            <p>Senin - Sabtu</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+        <!-- GOOGLE MAPS -->
+        <div class="contact-map">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4913.373585364218!2d109.60600107590822!3d-7.059617269186378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e701f292aa06db5%3A0xa370cad2e9a42b30!2sCahaya%20Interior%20design%20Pekalongan!5e1!3m2!1sid!2sid!4v1783389696099!5m2!1sid!2sid"
+                width="100%"
+                height="420"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==================================================
+     FOOTER
+================================================== -->
+
+<footer class="footer reveal">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <!-- Brand -->
+
+            <!-- Brand -->
+
+<div class="footer-brand">
+
+    <img src="assets/images/logo.jpeg" alt="Cahaya Interior">
+
+    <h2>
+
+        <span>Cahaya</span>
+        Interior
+
+    </h2>
+
+    <p>
+        Menghadirkan interior yang elegan,
+        fungsional, dan berkualitas untuk rumah,
+        kantor, maupun ruang komersial.
+    </p>
+
+</div>
+            <!-- Navigasi -->
+
+            <div class="footer-links">
+
+                <h3>Navigasi</h3>
+
+                <ul>
+
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Layanan -->
+
+            <div class="footer-links">
+
+                <h3>Layanan</h3>
+
+                <ul>
+
+                    <li>Kitchen Set</li>
+                    <li>Minibar</li>
+                    <li>Wall Panel</li>
+                    <li>TV Background</li>
+                    <li>Reception Desk</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Kontak -->
+
+            <div class="footer-links">
+
+                <h3>Kontak</h3>
+
+                <ul>
+
+                    <li>Pekalongan, Jawa Tengah</li>
+                    <li>+62 821 3856 4466</li>
+                    <li>+62 823 2660 2858</li>
+                    <li>cahayainterior@gmail.com</li>
+                </ul>
+
+
+                <div class="footer-social">
+
+
+                <div class="social-links">
+
+                    <a href="#" class="instagram cursor-hover">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="tiktok cursor-hover">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+
+                    <a href="#" class="facebook cursor-hover">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                </div>
+
+            </div>
+            </div>
+
+
+</div>
+
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="footer-bottom">
+
+    <p>
+        © 2026 Cahaya Interior. All Rights Reserved.
+    </p>
+
+    <p class="footer-credit">
+
+        Crafted with passion by
+
+        <a href="#" class="credit-name">
+
+            Archiviste Nero
+
+        </a>
+
+    </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+    <p>
+        © 2026 Cahaya Interior. All Rights Reserved.
+    </p>
+
+    <p class="footer-credit">
+        Crafted with passion by <span>Archiviste Nero</span>.
+    </p>
+
+</div>
+
+    </div>
+
+</footer>
+</main>
+
+<?php include 'components/footer.php'; ?>
+<button class="back-to-top cursor-hover" id="backToTop">
+
+    <span class="arrow">↑</span>
+
+    <span class="text">Back To Top</span>
+
+</button>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
