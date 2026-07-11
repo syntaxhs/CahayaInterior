@@ -316,3 +316,23 @@ document.querySelectorAll(".nav-menu a").forEach(link => {
 
 });
 
+
+const slider = document.querySelector(".portfolio-slider");
+const cards = document.querySelectorAll(".portfolio-card");
+const dots = document.querySelectorAll(".portfolio-dots span");
+
+slider.addEventListener("scroll", () => {
+
+    const scrollLeft = slider.scrollLeft;
+
+    const cardWidth = cards[0].offsetWidth + 20;
+
+    const index = Math.round(scrollLeft / cardWidth);
+
+    dots.forEach(dot => dot.classList.remove("active"));
+
+    if(dots[index]){
+        dots[index].classList.add("active");
+    }
+
+});
